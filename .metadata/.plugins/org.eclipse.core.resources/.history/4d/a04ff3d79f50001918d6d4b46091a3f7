@@ -1,0 +1,24 @@
+package com.class3ifElse;
+
+public class SquareOrNot {
+public static void main(String[] args) {
+	int[][] a = {
+			{1,1,1},
+			{1,1,1},
+			{1,1,1}
+		};
+	
+	boolean isTrue=false;
+	
+	for (int i = 0; i < a.length; i++) {
+		if(a.length==a[i].length) {
+			isTrue=true;
+		}else {
+			isTrue=false;
+			break;
+		}
+		
+	}System.out.println(isTrue);
+	
+}
+}

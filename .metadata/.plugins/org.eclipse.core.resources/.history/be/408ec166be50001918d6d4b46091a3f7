@@ -1,0 +1,167 @@
+package TrialsAtHome;
+
+import java.util.Scanner;
+
+public class problemClass {
+	public static void main(String[] args) {
+		
+//		int[][] a = {
+//				{1,1,2}, //sum = 4
+//				{3,1,2}, //sum = 6
+//				{3,5,3}, //sum = 11
+//				{0,1,2}  //sum = 3
+//			};
+
+		
+//		int sum = 0;
+//		for (int row = 0;  row < a.length;  row++) {
+//			   for (int column = 0;  column < a[row].length;  column++) {
+//			      sum+=a[row][column];
+//			      System.out.println(sum);}
+	
+		
+//		for (int i=0;i<a.length;i++) {
+//			int sum=0;
+//			for (int j=0;j<a[i].length;j++) {
+//				sum+=a[i][j];
+//			}System.out.println(sum);
+//		}
+		
+//int sum;
+//        
+//        for(int row = 0; row < a.length; row++) {
+//            
+//            sum = 0;
+//            for(int col = 0; col < a[row].length; col++) {
+//                
+//                sum += a[row][col];
+//            }
+//            System.out.println(sum);
+//        }
+//		
+//		//System.out.println(sum);
+//		
+//	
+//	
+//   
+		
+//		int row=0;
+//		for (int i=0;i<a.length;i++) {
+//			//for (int j=0;j<a.length;j++) {}
+//			row+=a[2][i];
+//		}
+//		System.out.println(row);
+		
+//}
+//}
+			   
+
+//		int sum = 0;
+//		for ( int[] row : a ) {       // For each row in A...
+//		   for ( int item : row )     // For each item in that row...
+//		      sum = sum + item;
+//		
+//		}System.out.println(sum);
+
+		
+//		int[][] a = {
+//				{5,2,3,7},
+//				{1,5,2,2},
+//				{1,2,3,4}
+//			};
+//		int rowTotal=0;
+//		for (int i=0;i<a[0].length;i++){
+//			rowTotal+=a[0][i];
+//		 		  }
+//		System.out.println(rowTotal);
+
+		
+//		int[][] a = {
+//				{1,1,1},
+//				{1,1,1},
+//				{1,1,1}
+//			};
+//		
+//		boolean isTrue=false;
+//		
+//		for (int i = 0; i < a.length; i++) {
+//			if(a.length==a[i].length) {
+//				isTrue=true;
+//			}else {
+//				isTrue=false;
+//				break;
+//			}
+//			
+//		}System.out.println(isTrue);
+		
+		
+//		int[][] a = {
+//				{1,1,1},
+//				{1,1,1},
+//				{1,1,1}
+//			};
+		
+		/*Write a program that  takes a 2-D array and prints the sums of the rows as an integer array.
+
+		For example, the if we run rowSums for the following 2D array:
+		*/
+		
+//		int [][]a={	
+//		  {1,1,2}, //sum = 4
+//		  {3,1,2}, //sum = 6
+//		  {3,5,3}, //sum = 11
+//		  {0,1,2}  //sum = 3
+//		};
+//		
+//		int sum=0;
+//		for (int i = 0; i < a.length; i++) {
+//		for (int j = 0; j < a.length; j++) {
+//			sum+=a[i][j];
+//			
+//			
+//		}
+//			
+//		}System.out.println(sum);
+		
+		
+		/*For you to do:
+If browser is ChRoME
+It should print the 
+Proceed with chrome Browser
+If browser is FireFOX
+It should print the 
+Proceed with firefox Browser
+If browser is Ie
+It should print the 
+Proceed with ie Browser
+If any other browser 
+It should print the  
+Invalid Browser
+*/
+		  Scanner sc = new Scanner(System.in); 
+		  System.out.println("Enter the browser name to proceed further with execution");
+		   String language = sc.nextLine(); 
+		for (int i = 1; i < 4; i++) {
+			
+		
+		   if (language.equalsIgnoreCase("ChRoME")) {
+				 System.out.println("Proceed with "+language.toLowerCase()+" Browser");
+			 }else if (language.equalsIgnoreCase("FireFOX")){
+				 System.out.println("Proceed with "+language.toLowerCase()+" Browser");
+			 }else if (language.equalsIgnoreCase("Ie")) {
+				 System.out.println("Proceed with "+language.toLowerCase()+" Browser");
+			 }else {
+				 System.out.println("Invalid Browser");
+			 }
+		
+		}
+	}}
+	
+		
+	
+
+			
+		
+		
+		
+		
